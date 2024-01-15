@@ -12,10 +12,10 @@
     display: flex;
     align-items: center;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 1px;
 }
 .hi{
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .user-name{
