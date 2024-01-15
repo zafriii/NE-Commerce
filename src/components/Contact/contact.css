@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.contact-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-container {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-form input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.contact-form textarea{
+    margin-top: 30px;
+    width: 350px;
+}
+
+
+input[type="submit"] {
+    cursor: pointer;
+    width: 100px;
+    background-color: rgb(98 84 243);
+    border-radius: 5px;
+    color: rgb(255 255 255);
+    padding: 10px 25px;
+    border: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1);
+}

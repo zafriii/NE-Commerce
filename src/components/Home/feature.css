@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.section{
+    padding: 9rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-container {
+   
+    max-width: 120rem;
+ }
+
+ figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+ }
+
+
+.card:hover {
+      /* width: 100%; */
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: all 0.2s linear;
+      cursor: pointer;
+}
+
+.pic-container img {
+    max-height: 200px;
+    max-width: 300px;
+    margin-top: 1.5rem;
+    height: 20rem;
+    transition: all 0.2s linear;
+  }
+
+.caption {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    text-transform: uppercase;
+    padding: 0.8rem 2rem;
+    font-size: 15px;
+    border-radius: 2rem;
+    color: rgb(107, 107, 187);
+    background-color: white;
+  }
+
+  .intro-data , .common-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .common-heading{
+    font-size: 30px;
+  }
+
+.card {
+    
+    background-color: rgb(239, 248, 248);
+    border-radius: 1rem;
+    margin-left: 40px;
+    
+}
+
+.card-data {
+      padding: 0 2rem;
+     
+}
+
+.card-data-text {
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+}
+
+.card-data  h3 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-data  p{
+        text-decoration: none;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+}
+    
+.pic-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+@media (max-width:600px) {
+
+    .pic-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } 
+} 
+
+@media (max-width:480px) {
+  .card {    
+    margin-left: 5px;   
+}
+  
+}   
+
+ 

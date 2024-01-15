@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+
+.product-container{
+       display: grid;
+       grid-template-columns: 0.1fr 1fr;
+}
+
+.product-view-sort{
+    margin-top: 30px;
+}
+
+.grid-section{
+    
+    padding: 9rem 0;
+}
+
+.grid-container {
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns:  30% 30% 30%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.grid-container img{
+    height: 100%;
+    width:90%;
+    margin-top: 20px;
+}
+
+.grid-container .card{
+    width:90%;
+    border-radius: 1px;
+} 
+
+.grid-container .card:hover {
+    /* width: 100%; */
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.grid-container .card-data  h3 {
+    text-decoration: none;
+   
+}
+
+.grid-container .card-data  p{
+        text-decoration: none;
+       
+}
+
+.card-list-column{
+    display: flex;    
+}
+
+
+.list-item{
+    height: 300px;
+    width: 70%;
+    margin-top: 30px;
+    background-color: rgb(239, 248, 248);
+    border: 1px solid rgb(190, 208, 226);
+    border-radius: 1px;
+    gap:1rem;
+    margin-left: 15%;
+    
+}
+
+.list-container img{
+    height: 100%;
+    width:70%;
+    margin-top: 20px;
+}
+
+.list-container h3{
+    margin-left: 20px;
+}
+
+.list-container .list-card-data{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.list-card-data button{
+    margin-left: 20px;
+}
+
+.sort-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+.sorting-list button{
+        background-color: azure;
+        margin-left: 10px;
+        padding: 10px 5px;
+        border:azure ;
+        cursor: pointer;
+        
+}
+
+.sorting-list button .icon{
+    color: black;
+}
+
+.sort-section button .active {
+    background-color: black;    
+}
+
+.sort-selection .sort-style {
+    padding: 10px 8px;
+}
+
+.sort-style option {
+    padding: 0.5rem 0;
+    cursor: pointer;
+    height: 2rem;
+    padding: 10px;
+}
+
+
+ .filter-search input{
+    
+    padding: 10px 10px;
+    outline: none;
+}   
+
+.filter-category h3{
+    font-family: 'Oswald', sans-serif;  
+    
+    
+}
+
+.filter-category button{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   font-family: 'Oswald', sans-serif; 
+   font-size: 18px;   
+}
+
+.filter-category button:hover{
+   color:rgba(107, 107, 187);
+}
+
+
+.filter-search {
+      margin-top: -880px;
+      border: 2px solid rgba(107, 107, 187);
+}
+
+ 
+.filter-products{
+    background-color: rgb(239, 248, 248);
+    height: 2000px;
+    margin-left: 70px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    margin-top: 20px;
+    
+} 
+
+
+.filter-category{
+    margin-top: 80px;
+}
+
+.filter-category h3{
+    margin-left: -20px;
+    
+}
+
+.filter-company{
+    margin-top: 80px;
+}
+
+.filter-company h3{
+    margin-left: 10px;
+}
+
+.filter-company select{
+    padding: 10px 20px;
+}
+
+.filter-price{
+    margin-top: 150px;
+}
+
+.filter-price h3{
+    margin-left: 2px;
+}
+
+
+.filter-button{
+    display: none;
+}
+
+
+@media (max-width:1400px) {
+    .filter-products{
+        height: 1600px;
+                   
+}
+
+.filter-search {
+    margin-top: -450px;
+}
+
+} 
+
+@media (max-width:600px) {
+
+    .grid-container{
+        display: grid;
+        grid-template-columns:  100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: -60px;
+      }
+
+      .grid-container .card{
+       
+        margin-left: -70px;
+        width: 300px;
+    } 
+
+
+    .sort-section{
+        margin-left: -100px;      
+    }
+
+
+    .card-list-column{
+    display: flex; 
+    flex-direction: column; 
+     
+} 
+
+   .list-container .list-card-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 35px;
+    
+
+  }
+
+  .list-item{
+    height: 470px;
+    width: 100%;
+    margin-left: -5px;
+}
+
+.list-container img{
+    height: 100%;
+    width:100%;}
+
+    .list-container h3{
+        margin-left:-45px ;
+        
+    }
+
+    .list-container .name-price{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 60px;
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    
+
+
+    .filter-products{
+        margin-left: 2px;
+        width: 125px;
+    }
+
+    .product-view-sort{
+        margin-top: -20px;
+        margin-left:100px ;
+    }
+
+    .filter-search input{
+        width: 90px;
+    }
+
+    .filter-category button{
+        font-size: 15px;
+    }
+
+   
+
+}
+
+
+
+
+@media (max-width:480px) {
+
+    .product-view-sort{
+        margin-left:-300px ;
+        margin-top: 900px;
+     }
+
+
+    .filter-products{
+        height: 950px;
+        width: 400px;
+        
+    }
+
+    .filter-search {
+        margin-top: -20px;
+        width: 70%;
+    }
+
+
+    .filter-search input{
+        width: 91%;
+        width: 257px;
+    }
+
+
+    .filter-products button{
+        font-size: 20px;
+    }
+
+    .grid-container{
+        margin-left: 20px;
+    }
+
+
+    .list-item{
+        height: 490px;
+        width: 100%;
+        margin-left: -50px;
+    }
+    
+    .list-container .list-card-data{
+        margin-top: 170px;
+    }
+
+   
+    .filter-button{
+        display: inline-block;
+        background-color: azure;
+        font-size: 25px;
+        padding: 15px 20px;
+        margin-top: 180px;
+        margin-left: 10px;
+        border:azure ;
+        cursor: pointer;
+    }
+
+   
+}
+
+@media (max-width:380px){
+
+    .product-view-sort{
+        margin-left:-280px ;
+        margin-top: 900px;
+     }
+ 
+    .filter-products{
+        height: 950px;
+        width: 355px;        
+    }
+
+    .filter-search input{
+        width: 91%;
+        width: 226px;
+    }
+
+    .product-view-sort{
+        margin-left:-270px ;
+        margin-top: 900px;
+     }
+
+     .grid-container{
+        margin-left: 20px;
+    }
+
+    .list-item{
+        height: 490px;
+        width: 100%;
+        margin-left: -34px;
+    }
+ 
+
+
+}
